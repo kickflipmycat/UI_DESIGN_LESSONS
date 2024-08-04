@@ -26,5 +26,12 @@ namespace Session01Sum
         {
             this.InitializeComponent();
         }
+
+        private void addButton_Click(object sender, RoutedEventArgs e)
+        {
+            int sum;
+            sum = int.Parse(num1TextBox.Text) + int.Parse(num2TextBox.Text);
+            addTextBlock.Text = sum.ToString();
+        }
     }
 }

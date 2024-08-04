@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{F023EC1D-5877-4BEE-AD37-E7DE9FC1D84C}|Session01Sum\\Session01Sum.csproj|e:\\github\\ui_design_lessons\\ui_design_lessons\\session01sum\\session01sum\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{F023EC1D-5877-4BEE-AD37-E7DE9FC1D84C}|Session01Sum\\Session01Sum.csproj|solutionrelative:session01sum\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F023EC1D-5877-4BEE-AD37-E7DE9FC1D84C}|Session01Sum\\Session01Sum.csproj|e:\\github\\ui_design_lessons\\ui_design_lessons\\session01sum\\session01sum\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F023EC1D-5877-4BEE-AD37-E7DE9FC1D84C}|Session01Sum\\Session01Sum.csproj|solutionrelative:session01sum\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,11 +18,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "E:\\GITHUB\\UI_DESIGN_LESSONS\\UI_DESIGN_LESSONS\\Session01Sum\\Session01Sum\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "Session01Sum\\MainPage.xaml.cs",
+              "ToolTip": "E:\\GITHUB\\UI_DESIGN_LESSONS\\UI_DESIGN_LESSONS\\Session01Sum\\Session01Sum\\MainPage.xaml.cs",
+              "RelativeToolTip": "Session01Sum\\MainPage.xaml.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAApwBkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T03:48:39.445Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -29,12 +50,8 @@
               "ToolTip": "E:\\GITHUB\\UI_DESIGN_LESSONS\\UI_DESIGN_LESSONS\\Session01Sum\\Session01Sum\\MainPage.xaml",
               "RelativeToolTip": "Session01Sum\\MainPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-08-04T03:33:01.712Z",
+              "WhenOpened": "2024-08-04T04:02:15.936Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

@@ -9,10 +9,13 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <TextBlock x:Name="num1TextBlock" HorizontalAlignment="Left" Margin="434,184,0,0" TextWrapping="Wrap" Text="Number1" VerticalAlignment="Top" FontSize="20"/>
-        <TextBlock x:Name="num2TextBlock" HorizontalAlignment="Left" Margin="434,248,0,0" TextWrapping="Wrap" Text="Number2" VerticalAlignment="Top" FontSize="20"/>
-        <TextBox HorizontalAlignment="Left" Margin="429,0,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Center" FontSize="20"/>
-        <TextBox HorizontalAlignment="Left" Margin="429,402,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" FontSize="20"/>
+        <Grid Background="Aqua"/>
+        <TextBlock x:Name="num1TextBlock" HorizontalAlignment="Left" Margin="424,247,0,0" TextWrapping="Wrap" Text="Number1" VerticalAlignment="Top" FontSize="20"/>
+        <TextBlock x:Name="num2TextBlock" HorizontalAlignment="Left" Margin="424,319,0,0" TextWrapping="Wrap" Text="Number2" VerticalAlignment="Top" FontSize="20"/>
+        <TextBox x:Name="num1TextBox" HorizontalAlignment="Left" Margin="571,248,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" FontSize="20"/>
+        <TextBox x:Name="num2TextBox" HorizontalAlignment="Left" Margin="571,319,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" FontSize="20"/>
+        <Button x:Name="addButton" Content="ADD" Margin="424,444,0,0" VerticalAlignment="Top" FontSize="20" Click="addButton_Click"/>
+        <TextBlock x:Name="addTextBlock" HorizontalAlignment="Left" Margin="571,444,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" Width="119" Height="40"/>
 
     </Grid>
 </Page>
