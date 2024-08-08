@@ -1,0 +1,90 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Jamie\\source\\repos\\Session02Exercises\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ED579FC9-B65E-47F8-BCC4-99252CD581EF}|Session02Exercises\\Session02Exercises.csproj|c:\\users\\jamie\\source\\repos\\session02exercises\\session02exercises\\pizzaorder.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{ED579FC9-B65E-47F8-BCC4-99252CD581EF}|Session02Exercises\\Session02Exercises.csproj|solutionrelative:session02exercises\\pizzaorder.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED579FC9-B65E-47F8-BCC4-99252CD581EF}|Session02Exercises\\Session02Exercises.csproj|c:\\users\\jamie\\source\\repos\\session02exercises\\session02exercises\\pizzaorder.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED579FC9-B65E-47F8-BCC4-99252CD581EF}|Session02Exercises\\Session02Exercises.csproj|solutionrelative:session02exercises\\pizzaorder.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED579FC9-B65E-47F8-BCC4-99252CD581EF}|Session02Exercises\\Session02Exercises.csproj|c:\\users\\jamie\\source\\repos\\session02exercises\\session02exercises\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED579FC9-B65E-47F8-BCC4-99252CD581EF}|Session02Exercises\\Session02Exercises.csproj|solutionrelative:session02exercises\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED579FC9-B65E-47F8-BCC4-99252CD581EF}|Session02Exercises\\Session02Exercises.csproj|c:\\users\\jamie\\source\\repos\\session02exercises\\session02exercises\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{ED579FC9-B65E-47F8-BCC4-99252CD581EF}|Session02Exercises\\Session02Exercises.csproj|solutionrelative:session02exercises\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PizzaOrder.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Jamie\\source\\repos\\Session02Exercises\\Session02Exercises\\PizzaOrder.xaml.cs",
+              "RelativeDocumentMoniker": "Session02Exercises\\PizzaOrder.xaml.cs",
+              "ToolTip": "C:\\Users\\Jamie\\source\\repos\\Session02Exercises\\Session02Exercises\\PizzaOrder.xaml.cs",
+              "RelativeToolTip": "Session02Exercises\\PizzaOrder.xaml.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAtwB8AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T09:44:50.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Jamie\\source\\repos\\Session02Exercises\\Session02Exercises\\App.xaml.cs",
+              "RelativeDocumentMoniker": "Session02Exercises\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\Jamie\\source\\repos\\Session02Exercises\\Session02Exercises\\App.xaml.cs",
+              "RelativeToolTip": "Session02Exercises\\App.xaml.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAAwEQAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T08:29:24.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PizzaOrder.xaml",
+              "DocumentMoniker": "C:\\Users\\Jamie\\source\\repos\\Session02Exercises\\Session02Exercises\\PizzaOrder.xaml",
+              "RelativeDocumentMoniker": "Session02Exercises\\PizzaOrder.xaml",
+              "ToolTip": "C:\\Users\\Jamie\\source\\repos\\Session02Exercises\\Session02Exercises\\PizzaOrder.xaml",
+              "RelativeToolTip": "Session02Exercises\\PizzaOrder.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-08T04:00:17.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Jamie\\source\\repos\\Session02Exercises\\Session02Exercises\\MainPage.xaml",
+              "RelativeDocumentMoniker": "Session02Exercises\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\Jamie\\source\\repos\\Session02Exercises\\Session02Exercises\\MainPage.xaml",
+              "RelativeToolTip": "Session02Exercises\\MainPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-08T03:59:48.122Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

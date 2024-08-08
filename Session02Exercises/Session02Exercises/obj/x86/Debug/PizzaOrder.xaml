@@ -1,0 +1,68 @@
+﻿<Page
+    x:Class="Session02Exercises.PizzaOrder"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Session02Exercises"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="BurlyWood" Margin="10">
+        <StackPanel>
+            <StackPanel Orientation="Horizontal" Background="White">
+                <Image x:ConnectionId='20' x:Name="pizzaImage1" Source="Images/pizza.jpg" />
+                <TextBlock x:ConnectionId='21' x:Name="Title"  FontSize="110" Text="JRs Pizza" FontFamily="Freestyle Script" />
+                <Image x:ConnectionId='22' x:Name="pizzaImage2" Source="Images/pizza.jpg" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock x:ConnectionId='17' x:Name="orderType" Text="Order type:" FontSize="20"/>
+                <RadioButton x:ConnectionId='18' x:Name="radioButtonDelivery" GroupName="Delivery" Content="delivery" IsChecked="True" FontSize="20"/>
+                <RadioButton x:ConnectionId='19' x:Name="radioButtonPickup" GroupName="Delivery" Content="pickup" FontSize="20"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock x:ConnectionId='12' x:Name="pizzasize" Text="Pizza size:" FontSize="20"/>
+                <RadioButton x:ConnectionId='13' x:Name="mediumSize" GroupName="Size" Content="medium" IsChecked="True" FontSize="20"/>
+                <RadioButton x:ConnectionId='14' x:Name="largeSize" GroupName="Size" Content="large" FontSize="20"/>
+                <RadioButton x:ConnectionId='15' x:Name="familySize" GroupName="Size" Content="family" FontSize="20"/>
+                <RadioButton x:ConnectionId='16' x:Name="partySize" GroupName="Size" Content="party" FontSize="20"/>
+            </StackPanel>
+            <StackPanel>
+                <ComboBox x:ConnectionId='11' x:Name="crustTypeComboBox" Header="Crust type:" PlaceholderText="Choose a pizza crust" Width="200">
+                    <x:String>thin</x:String>
+                    <x:String>thick</x:String>
+                    <x:String>cheesy crust</x:String>
+                </ComboBox>
+            </StackPanel>
+            <StackPanel>
+                <ComboBox x:ConnectionId='10' x:Name="pizzaTypeComboBox" Header="Pizza type:" PlaceholderText="Choose type of pizza" Width="200">
+                    <x:String>Hawaiian</x:String>
+                    <x:String>Chicken</x:String>
+                    <x:String>Meatlovers</x:String>
+                    <x:String>Chicken and Mushroom</x:String>
+                    <x:String>Margherita</x:String>
+                    <x:String>Pepperoni</x:String>
+                    <x:String>BBQ Chicken</x:String>
+                    <x:String>New York pizza</x:String>
+                    <x:String>Australian pizza</x:String>
+                    <x:String>Sicilian pizza</x:String>
+                    <x:String>Vegetarian pizza</x:String>
+                </ComboBox>
+            </StackPanel>
+            <StackPanel>
+                <TextBlock x:ConnectionId='4' x:Name="toppinsTextBlock" Text="Additional pizza toppings:" FontSize="20" />
+                <CheckBox x:ConnectionId='5' x:Name="pineappleCheckBox" Content="pineapple"/>
+                <CheckBox x:ConnectionId='6' x:Name="salamiCheckBox" Content="salami"/>
+                <CheckBox x:ConnectionId='7' x:Name="extraCheeseCheckBox" Content="extra cheese"/>
+                <CheckBox x:ConnectionId='8' x:Name="mushroomCheckBox" Content="mushroom"/>
+                <CheckBox x:ConnectionId='9' x:Name="baconCheckBox" Content="bacon"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Button x:ConnectionId='2' x:Name="orderButton" Content="Sumbit order"                           />
+                <TextBlock x:ConnectionId='3' x:Name="messageTextBlock" Padding="30"/>
+            </StackPanel>
+        </StackPanel>
+    
+    </Grid>
+</Page>
+
