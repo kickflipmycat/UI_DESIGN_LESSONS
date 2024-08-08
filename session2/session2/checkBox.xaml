@@ -1,0 +1,21 @@
+﻿<Page
+    x:Class="session2.checkBox"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:session2"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <StackPanel>
+            <TextBlock x:Name="pizzaTextBlock" Text="Additional pizza toppings:" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <CheckBox x:Name="pineappleCheckBox" Content="pineapple" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <CheckBox x:Name="salamiCheckBox" Content="salami" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <CheckBox x:Name="mushroomCheckBox" Content="mushroom" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <CheckBox x:Name="cheeseCheckBox" Content="extra cheese" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </StackPanel>
+
+    </Grid>
+</Page>

@@ -1,0 +1,36 @@
+﻿<Page
+    x:Class="session2.HelloWorld"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:session2"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+
+        <!--<Button Name="helloButton" Content="HELLO" Click="helloButton_Click" Margin="10" Background="LightBlue" BorderBrush="DarkBlue" BorderThickness="1" Foreground="DarkBlue" />-->
+        <!--<Button Click="helloButton_Click">
+            <Button.Name>helloButton</Button.Name>
+            <Button.Content>HELLO</Button.Content>
+            <Button.Margin>10</Button.Margin>
+            <Button.Background>LightBlue</Button.Background>
+            <Button.BorderBrush>DarkBlue</Button.BorderBrush>
+            <Button.BorderThickness>1</Button.BorderThickness>
+            <Button.Foreground>DarkBlue</Button.Foreground>
+
+        </Button>-->
+
+        <Button x:ConnectionId='2' Content="CLEAR" x:Name="clearButton"  Height="24" >
+            <Button.Background>
+                <LinearGradientBrush EndPoint="1,0" StartPoint="0,0">
+                    <GradientStop Color="Yellow" Offset="0" />
+                    <GradientStop Color="Red" Offset="1" />
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <!--<Image x:Name="bugBunnyImage"  Source="Images/CartoonCharacter.jpg"/>-->
+    </Grid>
+</Page>
+
